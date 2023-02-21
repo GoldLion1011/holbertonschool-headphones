@@ -279,7 +279,7 @@ p {
 
 .wwd {
   color: var(--color-black);
-  padding-top: 100px;
+  padding-top: 200px;
   max-width: 637px;
   text-align: center;
   margin: 0 auto;
@@ -312,13 +312,16 @@ p {
 
 .wwd-icons h3 {
   font-size: 18px;
+  color: var(--color-black);
 }
 
 .wwd-icons p {
   line-height: 25px;
   font-size: 14px;
+  color: var(--color-black);
 }
 
 .wwd__icon {
   color: var(--hover-active-links-color);
+  font-size: 5rem;
 }
