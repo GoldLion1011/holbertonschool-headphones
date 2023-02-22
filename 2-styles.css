@@ -199,7 +199,6 @@ p {
 
 .hero-section {
   background-image: url('images/headphones_hero_1.jpg');
-  background-repeat: no-repeat;
   background-position: center top;
   background-size: auto 100%;
   display: flex;
@@ -329,7 +328,12 @@ p {
 /**---- Our Results Section ----**/
 
 .results {
-  background-image: url(/images/headphones_hero_2.jpg);
+  color: var(--color-white);
+  padding-top: 100px;
+  max-width: 637px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("./images/headphones_hero_2.jpg");
   width: 2560px;
   height: 600px;
   background-repeat: no-repeat;
@@ -337,16 +341,86 @@ p {
   background-size: cover;
   max-width: 100%;
   position: relative;
-  color: var(--color-white);
-  padding-top: 100px;
-  max-width: 637px;
-  text-align: center;
-  margin: 0 auto;
 }
-/**.results-section
-.or_icons
-.or-1
-.icon-p1
-.icon-p2
-.icon-p3
-.icon-p4
+.results-section {
+  color: var(--color-white);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.results-section p {
+  font-size: medium;
+  padding-top: 4rem;
+
+}
+.or_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.or-1 .text1 {
+  color: var(--color-white);
+  position: absolute;
+  left: 14.4%;
+  /**right: 80%;**/
+  top: 66%;
+  /**bottom: 11%;**/
+} 
+.text1 h1 b {
+  font-size: 46px !important;
+}
+.text1 p {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.or-1 .text2 {
+  color: var(--color-white);
+  position: absolute;
+  left: 36.4%;
+  top: 66%;
+} 
+.text2 h1 b {
+  font-size: 46px !important;
+}
+.text2 p {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.or-1 .text3 {
+  color: var(--color-white);
+  position: absolute;
+  left: 58.4%;
+  top: 66%;
+} 
+.text3 h1 b {
+  font-size: 46px !important;
+}
+.text3 p {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.or-1 .text4 {
+  color: var(--color-white);
+  position: absolute;
+  left: 80.4%;
+  top: 66%;
+} 
+.text4 h1 b {
+  font-size: 46px !important;
+}
+.text4 p {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+}
