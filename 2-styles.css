@@ -156,7 +156,6 @@ p {
   top: 0.5rem;
 }
 
-
 #burger-check:checked ~ * #burger-line::before {
   top: 0;
   left: 0;
