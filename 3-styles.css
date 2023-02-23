@@ -424,3 +424,57 @@ p {
   padding: 0;
 }
 
+/**---- Contact Us Form ----**/
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+ .contact h1 {
+  text-align: center;
+  padding-top: 7rem;
+
+}
+.form-fill {
+  color: var(--color-black);
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-size: 18px;
+  align-items: center;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #FF6565;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: ;
+  outline: 0;
+}
+
+.form-fill:focus {
+  border: 2px solid #FF6565;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  margin: 80px;
+  background-color: var(--hover-active-links-color);
+  height: 60px;
+  width: 200px;
+  border-radius: 50px;
+  box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12)
+}
